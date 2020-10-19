@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-role-molecule-albert1"
+      include_role:
+        name: "ansible-role-molecule-albert1"
